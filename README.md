@@ -108,7 +108,7 @@ pianoPart = \new PianoStaff \with {
     * `aug`
     * `dim`
     * `m7.5-`
-    * More exotic ones: `11`, `13.11`, `13.9-`, `6`, `7.5-`, `7.9`, `7.9-`, `9`, `m6`, `m7+.5-`, `m9`
+    * More exotic ones: `7sus4`, `11`, `13.11`, `13.9-`, `6`, `7.5-`, `7.9`, `7.9-`, `7.9+`, `9`, `maj9`, `m6`, `m7+.5-`, `m9`, `m13`
 
 
 ### Tips and tricks
@@ -132,7 +132,7 @@ pianoPart = \new PianoStaff \with {
     * `\segno`
     * `\coda`
     * `\arpeggio` (after the chord)
-    * `\stemUp`/`\stemDown`
+    * `\stemUp`/`\stemDown` (before the notes)
 
 * Bars:
     * `\bar "||"`
@@ -140,4 +140,4 @@ pianoPart = \new PianoStaff \with {
     * `\bar ":|."`
     * [All the rest](https://lilypond.org/doc/v2.19/Documentation/notation/bars)
 
-* Time signature as `4/4` instead of `C`: `\numericTimeSignature` in the `global` section
+* Time signature as `4/4` instead of `C` symbol: `\numericTimeSignature` in the `global` section
