@@ -108,6 +108,7 @@ pianoPart = \new PianoStaff \with {
     * `aug`
     * `dim`
     * `m7.5-`
+    * `m7+` (minor major seventh)
     * More exotic ones: `7sus4`, `11`, `13.11`, `13.9-`, `6`, `7.5-`, `7.9`, `7.9-`, `7.9+`, `9`, `maj9`, `m6`, `m7+.5-`, `m9`, `m13`
 
 
@@ -124,6 +125,8 @@ pianoPart = \new PianoStaff \with {
 
 * Transposition: `\transpose c f` in the `\score` section
 
+* Grace notes: `\appoggiatura {  }` for a non-slashed stem, `\acciaccatura {  }` for a slashed stem. [More options](https://lilypond.org/doc/v2.20/Documentation/notation/special-rhythmic-concerns#grace-notes)
+
 * Things you can use inline:
     * `\tempo ""`
     * `\time 3/4`
@@ -138,6 +141,6 @@ pianoPart = \new PianoStaff \with {
     * `\bar "||"`
     * `\bar "|."`
     * `\bar ":|."`
-    * [All the rest](https://lilypond.org/doc/v2.19/Documentation/notation/bars)
+    * [All the rest](https://lilypond.org/doc/v2.20/Documentation/notation/bars)
 
 * Time signature as `4/4` instead of `C` symbol: `\numericTimeSignature` in the `global` section
