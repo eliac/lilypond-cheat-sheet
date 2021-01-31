@@ -23,6 +23,7 @@ global = {
   \key c \major
   \time 4/4
   \tempo "Slow" 4=52
+  \set Score.connectArpeggios = ##t
 }
 
 verseA = \lyricmode {
@@ -126,6 +127,8 @@ pianoPart = \new PianoStaff \with {
 * Transposition: `\transpose c f` in the `\score` section
 
 * Grace notes: `\appoggiatura {  }` for a non-slashed stem, `\acciaccatura {  }` for a slashed stem. [More options](https://lilypond.org/doc/v2.20/Documentation/notation/special-rhythmic-concerns#grace-notes)
+
+* Staccato: `-.`
 
 * Things you can use inline:
     * `\tempo ""`
